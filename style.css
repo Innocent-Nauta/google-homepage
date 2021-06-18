@@ -1,0 +1,157 @@
+*{
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100%;
+    overflow:hidden
+}
+
+body, html {
+    font-size: small;
+}
+
+p{
+    padding-top: 15px;
+}
+
+section{
+    min-height: 25vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    position: relative;
+   
+}
+/*
+Moves the section part to the right side of the screen  
+*/
+section header{
+    width: 100%;
+    padding: 20px;
+    top: 0;
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+}
+
+section header ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+section header ul li {
+    margin-left: 20px;
+    list-style: none;    
+}
+
+section header ul li a{
+    text-decoration: none;
+    color: #0c0b0b;
+}
+
+button{
+    background:#4285F4 ;
+    font-size: 14px;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    color: seashell;
+}
+
+.searchbox{
+    font-size:16px;
+    height:45px;
+    width:500px; 
+    outline: none;
+    border:none;
+  }
+
+.searchbar{
+    margin:0 auto;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+    width:575px;      
+}
+
+.searchbar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+        
+  }
+
+.searchbar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.icon{
+    top:5px;
+    position:relative;    
+    height:20px;
+    right:500px;
+}
+.clickbutton{
+    margin-top:30px;
+    padding-bottom: 258px;
+}
+
+
+ .button{
+    background-color: #f8f9fa;
+    color:#707070;
+    border:none;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+    font-size:15px;
+    padding: 10px 20px;
+ 
+  } 
+
+.footer{
+    bottom: 0;
+    position: absolute;
+    background: #f2f2f2;
+    width: 100%;
+    left: 0;
+    
+}
+
+.footer .line{
+    border-top: 1px solid rgba(197, 195, 195, 0.5);
+    padding: 15px 25px;
+}
+
+.footer .line.right{
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer .line.right ul{
+    display: flex;
+}
+
+.footer .line.right ul li{
+    list-style: none;
+}
+
+.footer .line.right ul li a{
+    margin-right: 25px;
+    color: #777b80;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
